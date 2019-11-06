@@ -121,7 +121,8 @@ strong {
 }
 
 .forecast {
-  padding: 1em;
+  padding: 0 1em;
+  margin: 1em 0;
 }
 .btns {
   display: flex;
