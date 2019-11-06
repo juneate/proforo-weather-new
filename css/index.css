@@ -1,0 +1,168 @@
+/* Move background shadow to the image? Would require svg shadow due to png */
+
+
+body {
+  background-color: rgb(90,154,232);
+  background-image: url('/img/background\ texture\ overlay.svg'), linear-gradient(180deg, rgba(90,154,232,1) 0%, rgba(21,101,162,1) 100%);
+  background-attachment: fixed;
+  color: #fff;
+  font: 400 1.1em 'HelveticaNeue';
+  text-align: center;
+  
+  
+}
+strong {
+  font-weight: 700;
+  /* Maybe don't bother removing this? */
+}
+
+/* In the absence of a reset, ensure we handle form element font sizing */
+.context {
+  display: grid; /* Flex is easier here. Weigh with other grid options */
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+}
+.city {
+  justify-self: start;
+}
+.units {
+  justify-self: end;
+}
+.search {
+  line-height: 1;
+  padding: 1em 0.5em 1em 3em; /* start with 2-val, show how the bg is made, then go 4-val */
+  border: none;
+  border-radius: 0.25em;
+  background-color: rgba(0,0,0,0.15); /* convert to hsla? */
+  color: #fff;
+  font-weight: 700;
+  background-image: url('/img/search\ icon\ copy.svg');
+  background-repeat: no-repeat;
+  background-position: 1em;
+  background-size: auto 1.2em;
+  max-width: 12em;
+
+}
+/* Deal with outlines? */
+
+.search::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+/* Check on placeholder reliability, especially in Safari. Ensure the styling prop from reset is here */
+/* Ensure colour tone on placeholder vs content */
+
+.unit {
+  display: inline-block;
+}
+/* Can underline on abbr be styled? */
+
+.unit-type {
+  display: inline-block; /* Must be changed to block to see padding */
+  width: 3em;
+}
+.btn {
+  background-color: transparent;
+  color: white;
+  height: 3em;
+  text-align: center;
+  line-height: 1;
+  padding: 0.75em;
+  border: 0.25em solid transparent; /* Must start with transparent as not to shift the layout */
+  border-radius: 0.25em;
+  font-weight: 700;
+}
+.unit-radio:checked + .unit-type {
+  border-color: #fff;
+}
+.fore-radio:checked + .fore-type {
+  border-color: #fff;
+}
+.unit-radio, .fore-radio {
+  display: none;
+}
+
+.conditions {
+  margin-top: 3em;
+}
+
+/* This can be done with:
+  - block, inline-block, inline-block easily 
+  - can be done with grid as well */
+.temps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.temp-current {
+  font-weight: 700;
+  font-size: 2.25em;
+  flex-basis: 100%;
+  margin: 0.25em 0;
+}
+.temp-range {
+  font-size: 1.8em;
+  font-weight: 300; /* need the helvetica neue font!! */
+  padding: 0 0.25em;
+}
+
+.low {
+  opacity: 0.5;
+}
+
+.squiggly {
+  display: inline-block;
+  width: 12em;
+  height: 0.5em;
+  text-decoration: white wavy underline;
+  margin: 1.5em 0;
+  background-image: url('/img/squiggly\ copy.svg');
+  background-repeat: repeat-x;
+  border: none;
+}
+
+.forecast {
+  padding: 1em;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+  color: #ddd;
+}
+
+.method {
+  background-color: rgba(0,0,0,0.1);
+  margin: 1em 0;
+  border-radius: 0.25em;
+  padding: 1em;
+}
+/* .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.fore-time {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.fore-temp {
+  font-size: 1.7em;
+  font-weight: 700;
+}
+.fore-pop {
+}
+.fore-time small {
+  font-size: 0.6em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.fore-icon {
+}
+.fore-type {
+  display: inline-block; /* tricky */
+}

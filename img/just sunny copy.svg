@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="55px" viewBox="0 0 56 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>just sunny copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="150" height="60"></rect>
+        <circle id="path-3" cx="20" cy="20" r="20"></circle>
+        <filter x="-26.2%" y="-18.8%" width="142.5%" height="142.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="20" cy="20" r="14.24"></circle>
+        <filter x="-36.9%" y="-26.3%" width="159.7%" height="159.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="-2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="20" cy="20" r="8.8"></circle>
+        <filter x="-59.7%" y="-42.6%" width="196.6%" height="196.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="-2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="just-sunny-copy" transform="translate(-45.034173, -2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-15-Copy" mask="url(#mask-2)">
+                <g transform="translate(46.000000, 3.000000)">
+                    <g id="Group-4-Copy">
+                        <g id="Group-10" transform="translate(25.586957, 3.319738)">
+                            <g id="Group-5-Copy" transform="translate(14.314726, 1.600902) rotate(30.000000) translate(-14.314726, -1.600902) translate(13.814726, 0.100902)" stroke="#FBE099" stroke-linecap="round" stroke-width="1.60000002">
+                                <path d="M0.318486909,2.90416655 L0.318486909,0.0224132086" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-2" transform="translate(23.207061, 10.624291) rotate(60.000000) translate(-23.207061, -10.624291) translate(22.707061, 9.124291)" stroke="#FBE099" stroke-linecap="round" stroke-width="1.60000002">
+                                <path d="M0.470286404,2.92057416 L0.470286404,0.038820816" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-3" transform="translate(26.598782, 23.218230) rotate(90.000000) translate(-26.598782, -23.218230) translate(26.098782, 21.718230)" stroke="#FBE099" stroke-linecap="round" stroke-width="1.60000002">
+                                <path d="M0.414723933,2.88175334 L0.414723933,0" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-4" transform="translate(12.455060, 29.979348) rotate(120.000000) translate(-12.455060, -29.979348) translate(11.455060, 16.479348)">
+                                <path d="M0.683298548,2.92057416 L0.683298548,0.038820816" id="Path-47" stroke="#FBE099" stroke-width="1.60000002" stroke-linecap="round"></path>
+                                <ellipse id="Oval" fill="#FBE099" cx="0.661154086" cy="26.1134735" rx="1" ry="1"></ellipse>
+                            </g>
+                            <g id="Group-5-Copy-5" transform="translate(14.135427, 44.541683) rotate(150.000000) translate(-14.135427, -44.541683) translate(13.635427, 42.541683)" stroke="#FBE099" stroke-linecap="round" stroke-width="1.60000002">
+                                <path d="M0.510960956,3.0266346 L0.510960956,0.144881258" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-6" transform="translate(1.969992, 48.156708) rotate(180.000000) translate(-1.969992, -48.156708) translate(1.469992, 46.656708)" stroke="#FBE099" stroke-linecap="round" stroke-width="1.60000002">
+                                <path d="M0.414723933,2.88175334 L0.414723933,-2.27373675e-13" id="Path-47"></path>
+                            </g>
+                        </g>
+                        <g id="Group-10-Copy" transform="translate(13.681159, 25.095858) scale(-1, 1) translate(-13.681159, -25.095858) translate(0.181159, 0.095858)" stroke="#FBE099" stroke-linecap="round" stroke-width="1.60000002">
+                            <g id="Group-5">
+                                <path d="M0.415094346,2.88175334 L0.415094346,0" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy" transform="translate(12.801030, 4.785887) rotate(30.000000) translate(-12.801030, -4.785887) translate(12.301030, 3.285887)">
+                                <path d="M0.511417324,2.90416655 L0.511417324,0.0224132086" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-2" transform="translate(21.411617, 14.053216) rotate(60.000000) translate(-21.411617, -14.053216) translate(20.911617, 12.053216)">
+                                <path d="M0.470706443,3.01022699 L0.470706443,0.12847365" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-3" transform="translate(25.162671, 26.441961) rotate(90.000000) translate(-25.162671, -26.441961) translate(24.662671, 24.941961)">
+                                <path d="M0.415094346,2.88175334 L0.415094346,0" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-4" transform="translate(21.439797, 38.697862) rotate(120.000000) translate(-21.439797, -38.697862) translate(20.939797, 36.697862)">
+                                <path d="M0.470706443,3.01022699 L0.470706443,0.12847365" id="Path-47"></path>
+                            </g>
+                            <g id="Group-5-Copy-5" transform="translate(12.622004, 47.804309) rotate(150.000000) translate(-12.622004, -47.804309) translate(12.122004, 45.804309)">
+                                <path d="M0.318771368,3.0266346 L0.318771368,0.144881258" id="Path-47"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12-Copy-4" transform="translate(8.000000, 7.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#F1C44A" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Oval-Copy">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#EFC248" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Oval-Copy-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use fill="#EFC248" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                        <path d="M14.2139731,3.22805403 C21.7625524,1.03024565 27.9913853,3.20747939 32.9004718,9.75975527 C40.2641017,19.5881691 28.5709017,35.7475032 17.1885571,34.310255 C5.80621244,32.8730069 0.295952301,16.6229194 9.26930844,12.017972 C18.2426646,7.41302446 26.7836238,10.2753764 28.2449237,19.1798713 C29.7062237,28.0843662 11.3549644,27.1583662 15.3010213,19.5881691 C19.2470783,12.017972 24.5978122,17.548498 22.2989061,19.5881691 C20,21.6278402 16.691559,17.7586983 20.1605132,17.7586983" id="Path-6" stroke="#FFE190" stroke-width="1.44000002" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
