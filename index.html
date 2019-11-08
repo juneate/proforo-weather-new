@@ -31,7 +31,13 @@
     </header>
     <main class="weather">
       <header class="graphic">
-        <img src="img/sunny_clouds_mobile copy.svg" alt="">
+        <!-- <img src="img/sunny_clouds_mobile copy.svg" alt="Sunny with some clouds"> -->
+        <img 
+            sizes="(min-width: 600px) 1x, 
+                    (max-width: 599px) 1x" 
+            srcset="img/sunny_clouds_desktop-copy.svg 500w, 
+                    img/sunny_clouds_mobile-copy.svg 400w" 
+             src="img/sunny_clouds_mobile-copy.svg" alt="Sunny with some clouds">
       </header>
       <section class="conditions">
         <h1>Current conditions in <strong>Toronto, ON</strong></h1>
@@ -69,7 +75,7 @@
             <ul>
               <li class="row">
                 <time class="fore-time">2<small>pm</small></time>
-                <img src="img/sunny clouds copy 2.svg" alt="" class="fore-icon"> <!-- add alts -->
+                <img src="img/sunny-clouds-copy-2.svg" alt="" class="fore-icon"> <!-- add alts -->
                 <span class="fore-pop">0%</span>
                 <span class="fore-temp">30&deg;</span>
               </li>
@@ -87,7 +93,7 @@
               </li>
               <li class="row">
                 <time class="fore-time">5<small>pm</small></time>
-                <img src="img/sunny clouds copy 2.svg" alt="" class="fore-icon"> <!-- add alts -->
+                <img src="img/sunny-clouds-copy-2.svg" alt="" class="fore-icon"> <!-- add alts -->
                 <span class="fore-pop">0%</span>
                 <span class="fore-temp">30&deg;</span>
               </li>

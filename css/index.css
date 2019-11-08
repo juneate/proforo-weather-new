@@ -1,6 +1,4 @@
 /* Move background shadow to the image? Would require svg shadow due to png */
-
-
 body {
   background-color: rgb(90,154,232);
   background-image: url('../img/background\ texture\ overlay.svg'), linear-gradient(180deg, rgba(90,154,232,1) 0%, rgba(21,101,162,1) 100%);
@@ -8,8 +6,6 @@ body {
   color: #fff;
   font: 400 1.1em 'HelveticaNeue';
   text-align: center;
-  
-  
 }
 strong {
   font-weight: 700;
@@ -111,7 +107,7 @@ strong {
 
 .squiggly {
   display: inline-block;
-  width: 12em;
+  width: 10.5em;
   height: 0.5em;
   text-decoration: white wavy underline;
   margin: 1.5em 0;
@@ -119,9 +115,11 @@ strong {
   background-repeat: repeat-x;
   border: none;
 }
-
-.forecast {
+.weather {
   padding: 0 1em;
+
+}
+.forecast {
   margin: 1em 0;
 }
 .btns {
@@ -166,4 +164,40 @@ strong {
 }
 .fore-type {
   display: inline-block; /* tricky */
+}
+
+
+@media screen and (min-width: 50em) {
+
+  .context {
+    max-width: 70em;
+    margin: auto;
+  }
+  .weather {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "grap fore" "cond fore" "squi fore";
+    grid-column-gap: 1em;
+    max-width: 70em;
+    margin: auto;
+  }
+
+  .graphic {
+    grid-area: grap;
+  }
+  .conditions {
+    grid-area: cond;
+    margin-top: 1em;
+  }
+  .squiggly {
+    grid-area: squi;
+    /* Remember, once elements become a grid-item, they themselves no longer take layout instructions from the standard document flow. Therefore, although the item is an inline-block and the document is set to text-align:center, that instruction will only inherit into childen elements, but will not affect the element itself. */
+    justify-self: center;
+  }
+  .forecast {
+    grid-area: fore;
+  }
+
+
 }
